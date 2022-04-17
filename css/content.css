@@ -1,0 +1,108 @@
+body {
+	text-align: center;
+	margin: 0px;
+  	padding: 0px; 
+  	outline: none;
+  	border: 0px;
+  	font-family: "DM Serif Text", serif;
+}
+ul {
+	text-align: left;
+}
+#topNav {
+	background-color: #232323;
+	padding-top: 2em;
+	padding-bottom: 2em;
+
+}
+#topNav a {
+	color: #d4d9dd;
+	padding-left: 3em;
+	padding-right: 3em;
+	padding-top: 2em;
+	padding-bottom: 2em;
+
+}
+#topNav a:hover {
+	color: black;
+	background-color: #616161;
+}
+#about, #accomplishments {
+	background-color: #d4d9dd;
+	text-align: left;
+}
+
+.row{
+	float: left;
+	height: 20em;
+}
+
+
+.left{
+	text-align: left;
+	width: 70%;
+	background-color:#d4d9dd;
+}
+.right{
+	text-align: left;
+	width: 30%;
+	background-color: #d4d9dd;
+}
+
+#services, #contact {
+	color: #424246;
+	background-color: #d4d9dd;
+	margin: -30px;
+	text-align: left;
+	padding: 100px;
+}
+#footer{
+	background-color: #424246;
+	color: black;
+	padding-bottom: 2em;
+}
+#footer img {
+	width: 75px;
+	padding: 40px;
+}
+table{
+	width: 600px;
+	border: 1px;
+	border-color: white;
+}
+p {
+	font-size: 1em;
+}
+h1 {
+	font-size: 3em;
+}
+h2 {
+	font-size: 2.25em;
+}
+h3 {
+	font-size: 2em;
+}
+a {
+	color: black;
+}
+
+@media screen and (max-width: 900px) {
+	#topNav a {
+		padding-top: .5em;
+		padding-bottom: .5em;
+		display: block;
+	}
+	#topNav {
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}
+	#about, #services, #contact, #accomplishments {
+		padding: 40px;
+	}
+}
+#photo {
+	width: 100%;
+	margin-top: -30px;
+}
+
+
