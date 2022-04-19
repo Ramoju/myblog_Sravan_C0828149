@@ -78,6 +78,9 @@ a {
 		padding-top: 0px;
 		padding-bottom: 0px;
 	}
+	.about, .externallinks{
+		flex-basis:100%
+	}	
 	#about, #services, #contact, #accomplishments {
 		padding: 40px;
 	}
